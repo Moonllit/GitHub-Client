@@ -10,7 +10,7 @@ android {
     compileSdkVersion androidCompileSdkVersion
     buildToolsVersion androidBuildToolsVersion
     defaultConfig {
-        applicationId "com.example.template"
+        applicationId "com.github.moonllit.githubclient"
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidTargetSdkVersion
         versionCode 1

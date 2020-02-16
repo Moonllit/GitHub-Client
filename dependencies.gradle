@@ -30,6 +30,7 @@ ext {
     retrofitVersion = '2.7.1'
     gsonVersion = '2.8.6'
     loggingVersion = '4.3.1'
+    koin_version= '2.0.1'
 
     gradle_plugins = [
             "com.android.tools.build:gradle:$gradleVersion",
@@ -64,6 +65,11 @@ ext {
             material           : "com.google.android.material:material:$materialVersion",
             paging             : "androidx.paging:paging-runtime:$pagingVersion",
             bindingCompiler    : "com.android.databinding:compiler:$gradleVersion"
+    ]
+
+    koinLibs = [
+            "org.koin:koin-androidx-scope:$koin_version",
+            "org.koin:koin-androidx-viewmodel:$koin_version"
     ]
 
     glideLibs = [
