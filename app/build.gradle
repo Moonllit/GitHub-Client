@@ -60,6 +60,8 @@ dependencies {
 
     implementation glideLibs.glide
 
+    implementation koinLibs
+
     kapt glideLibs.compiler
 
     kapt androidLibs.bindingCompiler

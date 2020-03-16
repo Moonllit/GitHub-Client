@@ -37,6 +37,9 @@ dependencies {
 
     implementation kotlinLibs.coroutinesAndroid
 
+    implementation retrofit_libraries
+
+    implementation koinLibs
 
     testImplementation testLibs
     androidTestImplementation androidTestLibs

@@ -1,2 +1,2 @@
-include ':app', ':domain', ':data', ':device'
+include ':app', ':domain', ':data', ':device', ':feature-users'
 rootProject.name='AndroidAppTemplate'
