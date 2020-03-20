@@ -12,8 +12,12 @@ class GitHubClientApplication : Application() {
         super.onCreate()
 
         startKoin {
+            printLogger()
             androidContext(this@GitHubClientApplication)
-            modules(listOf(networkModule, repositoryModule))
+            modules(
+                networkModule +
+                        repositoryModule
+            )
         }
     }
 }
